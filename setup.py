@@ -10,6 +10,7 @@ setup(
     license='MIT',
     keywords='twitter',
     packages=[
+        "src"
     ],
     install_requires=["tweepy>=3.6.0"],
     classifiers=[
