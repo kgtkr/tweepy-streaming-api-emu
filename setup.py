@@ -12,7 +12,7 @@ setup(
     packages=[
         "src"
     ],
-    install_requires=["tweepy>=3.6.0"],
+    install_requires=["tweepy>=3.6.0", "schedule>=0.5.0"],
     classifiers=[
         'Programming Language :: Python :: 3.6',
     ],
