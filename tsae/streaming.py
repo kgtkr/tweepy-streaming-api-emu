@@ -29,6 +29,8 @@ class StreamingEmulate:
         self.check_list_error = check_list_error
         self.sync_list_error = sync_list_error
 
+        self.sync_list()
+
     def find_list(self)->int:
         for x in self.api.lists_all():
             if x.name == self.list_name:
