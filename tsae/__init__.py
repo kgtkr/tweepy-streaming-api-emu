@@ -1,1 +1,1 @@
-from streaming import StreamingEmulate
+from .streaming import StreamingEmulate

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='tweepy-streaming-api-emu',
-    version='0.2',
+    version='0.3',
     description='emulate streaming api',
     url='https://github.com/kgtkr/tweepy-streaming-api-emu',
     author='kgtkr',
